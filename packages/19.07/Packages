@@ -1,0 +1,80 @@
+Package: tailscale
+Version: 1.84.2
+Depends: libc, libustream-openssl, ca-bundle, kmod-tun
+Provides: tailscale tailscaled
+Conflicts: tailscaled
+Section: net
+Architecture: aarch64_generic
+SHA256sum: f02a944b8f6f4a7af67aec05118b1aeb6b926da88a55f85e18d8466aac3c2f0b
+Size: 6711950
+Filename: tailscale_1.84.2_aarch64_generic.ipk
+Description: Creates a secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. This package combines both the tailscaled daemon and tailscale CLI utility in a single combined (multicall) executable.
+License: BSD-3-Clause
+SourceDateEpoch: 1749505157
+Installed-Size: 6709927
+
+
+Package: tailscale
+Version: 1.84.2
+Depends: libc, libustream-openssl, ca-bundle, kmod-tun
+Provides: tailscale tailscaled
+Conflicts: tailscaled
+Section: net
+Architecture: arm_cortex-a7
+SHA256sum: f9e5e81ea0a39b5f90d0e317abc3292dfbfc4b8a9f063c6f8745821183423fbb
+Size: 6199328
+Filename: tailscale_1.84.2_arm_cortex-a7.ipk
+Description: Creates a secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. This package combines both the tailscaled daemon and tailscale CLI utility in a single combined (multicall) executable.
+License: BSD-3-Clause
+SourceDateEpoch: 1749505157
+Installed-Size: 6197372
+
+
+Package: tailscale
+Version: 1.84.2
+Depends: libc, libustream-openssl, ca-bundle, kmod-tun
+Provides: tailscale tailscaled
+Conflicts: tailscaled
+Section: net
+Architecture: mips_24kc
+SHA256sum: e962e3af8534ad3cc5ee01e64145fda6436deafecd098833e7b48f04e10ae790
+Size: 6026305
+Filename: tailscale_1.84.2_mips_24kc.ipk
+Description: Creates a secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. This package combines both the tailscaled daemon and tailscale CLI utility in a single combined (multicall) executable.
+License: BSD-3-Clause
+SourceDateEpoch: 1749505157
+Installed-Size: 6024387
+
+
+Package: tailscale
+Version: 1.84.2
+Depends: libc, libustream-openssl, ca-bundle, kmod-tun
+Provides: tailscale tailscaled
+Conflicts: tailscaled
+Section: net
+Architecture: mips_siflower
+SHA256sum: e3df02adeb7d6965b0ad6d0fdf5f994ccd893d9c619728158db09edef4def7a1
+Size: 6141659
+Filename: tailscale_1.84.2_mips_siflower.ipk
+Description: Creates a secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. This package combines both the tailscaled daemon and tailscale CLI utility in a single combined (multicall) executable.
+License: BSD-3-Clause
+SourceDateEpoch: 1749505157
+Installed-Size: 6139767
+
+
+Package: tailscale
+Version: 1.84.2
+Depends: libc, libustream-openssl, ca-bundle, kmod-tun
+Provides: tailscale tailscaled
+Conflicts: tailscaled
+Section: net
+Architecture: mipsel_24kc
+SHA256sum: a4f317f6f64687d7a4ae92f7aa73e081a0860dc0d81cf06ec293bc2315ca64f3
+Size: 6143818
+Filename: tailscale_1.84.2_mipsel_24kc.ipk
+Description: Creates a secure network between your servers, computers, and cloud instances. Even when separated by firewalls or subnets. This package combines both the tailscaled daemon and tailscale CLI utility in a single combined (multicall) executable.
+License: BSD-3-Clause
+SourceDateEpoch: 1749505157
+Installed-Size: 6141868
+
+
