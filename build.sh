@@ -13,6 +13,8 @@ declare -A ARCH_GO_ENV=( \
     ["arm_cortex-a7"]="GOARCH=arm" \
     ["aarch64_generic"]="GOARCH=arm64" \
     ["mips_siflower"]="GOARCH=mipsle GOMIPS=hardfloat" \
+#    aarch64_cortex-a53
+#    aarch64_cortex-a72
 )
 
 # ARCH is a comma separated list of openwrt arch to build
@@ -133,6 +135,7 @@ buildGoCombined() {
     echo "===== Building binary for ${arch} ($envs)  ====="
     pushd "$code"
     (export $envs && GOOS=linux go build -o "tailscale.${arch}.combined" -tags ts_include_cli -trimpath -ldflags="-s -w" ./cmd/tailscaled)
+    upx --lzma --best "tailscale.${arch}.combined"
     popd
 }
 
